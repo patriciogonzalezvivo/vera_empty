@@ -81,23 +81,23 @@ cd ..
 ### For windows managers like MacOS, Windows or Linux (with X11 Window Manager) (all through GLFW) 
 
 ```bash
-git clone --recursive https://github.com/patriciogonzalezvivo/vera_hello_world.git
-cd vera_hello_world
+git clone --recursive https://github.com/patriciogonzalezvivo/vera_empty.git
+cd vera_empty
 mkdir build
 cd build
 cmake ..
 make
-./hello_3d_world
+./empty
 ```
 
 ### For Linux with no X11 Window Manager
 
 ```bash
-git clone --recursive https://github.com/patriciogonzalezvivo/vera_hello_world.git
-cd vera_hello_world
+git clone --recursive https://github.com/patriciogonzalezvivo/vera_empty.git
+cd vera_empty
 mkdir build
 cd build
 cmake -DNO_X11=TRUE ..
 make
-./hello_3d_world
+./empty
 ```
